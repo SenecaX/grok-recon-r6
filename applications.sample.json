@@ -1,0 +1,100 @@
+{
+  "_comment": "Live evidence source for UC-D Follow-up Guardian. Host raw over HTTPS on something you own. 'as_of' is the analysis date (ShiftSafe invariant: do not use wall-clock 'today'); the rule computes day-deltas from it. 'fetch_ts' in the evidence block proves live retrieval; 'as_of' is the data's own reference date. Riggable toggles for dry runs are documented in decision-contract.md.",
+  "as_of": "2026-09-09",
+  "config": {
+    "sla_by_stage_days": {
+      "applied": 10,
+      "referral_sent": 14,
+      "recruiter_screen": 5,
+      "phone_screen": 7,
+      "take_home": 7,
+      "onsite": 5,
+      "offer": 3
+    },
+    "dead_days": 35,
+    "grace_days": 2,
+    "quiet_days": 3
+  },
+  "applications": [
+    {
+      "id": "northwind-senior-data-engineer",
+      "company": "Northwind Analytics",
+      "role": "Senior Data Engineer",
+      "stage": "applied",
+      "applied_date": "2026-08-10",
+      "last_contact_date": "2026-08-10",
+      "last_contact_type": "applied",
+      "last_followup_date": null
+    },
+    {
+      "id": "halcyon-backend-engineer",
+      "company": "Halcyon Systems",
+      "role": "Backend Engineer",
+      "stage": "onsite",
+      "applied_date": "2026-08-22",
+      "last_contact_date": "2026-08-28",
+      "last_contact_type": "them",
+      "last_followup_date": null
+    },
+    {
+      "id": "meridian-platform-engineer",
+      "company": "Meridian Labs",
+      "role": "Platform Engineer",
+      "stage": "applied",
+      "applied_date": "2026-08-29",
+      "last_contact_date": "2026-08-29",
+      "last_contact_type": "applied",
+      "last_followup_date": null
+    },
+    {
+      "id": "cobalt-staff-engineer",
+      "company": "Cobalt Group",
+      "role": "Staff Engineer",
+      "stage": "phone_screen",
+      "applied_date": "2026-09-02",
+      "last_contact_date": "2026-09-06",
+      "last_contact_type": "them",
+      "last_followup_date": null
+    },
+    {
+      "id": "pinnacle-ml-engineer",
+      "company": "Pinnacle AI",
+      "role": "ML Engineer",
+      "stage": "applied",
+      "applied_date": "2026-07-01",
+      "last_contact_date": "2026-07-01",
+      "last_contact_type": "applied",
+      "last_followup_date": null
+    },
+    {
+      "id": "riverbed-senior-swe",
+      "company": "Riverbed Software",
+      "role": "Senior SWE",
+      "stage": "applied",
+      "applied_date": "2026-09-07",
+      "last_contact_date": "2026-09-07",
+      "last_contact_type": "applied",
+      "last_followup_date": null
+    },
+    {
+      "id": "auric-data-platform-lead",
+      "company": "Auric Data",
+      "role": "Data Platform Lead",
+      "stage": "applied",
+      "applied_date": "2026-08-15",
+      "last_contact_date": "2026-08-20",
+      "last_contact_type": "them",
+      "last_followup_date": "2026-09-07"
+    },
+    {
+      "id": "solace-perception-engineer",
+      "company": "Solace Robotics",
+      "role": "Perception Engineer",
+      "stage": "take_home",
+      "applied_date": "2026-08-30",
+      "last_contact_date": "2026-09-01",
+      "last_contact_type": "them",
+      "last_followup_date": null
+    }
+  ]
+}
